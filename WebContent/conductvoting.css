@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+.main4
+{
+	padding-top: 200px;
+	padding-left: 120px;
+}
+.main3
+{
+	padding-top: 200px;
+	padding-left: 120px;
+}
+.main2
+{
+	padding-top: 190px;
+	padding-left: 10px;
+	padding-right: 60px;
+}
+
+.hoverTable 
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.hoverTable td {
+	text-align: center;
+	padding: 7px;
+	border: #00ffff0px solid;
+}
+/* Define the default color for all the table rows */
+.hoverTable tr {
+	background: #b8d1dc;
+}
+/* Define the hover highlight color for the table row */
+.hoverTable tr:hover {
+	background-color: #ffff99;
+}
+
+.main{
+	background: #FFFEF1;
+}

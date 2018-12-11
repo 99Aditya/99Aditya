@@ -1,0 +1,187 @@
+@charset "ISO-8859-1";
+
+body
+{
+	
+	margin: 0 auto;
+	background: #FFFEF1;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.loginbox
+{
+	
+	margin-left: auto;
+	margin-right: auto; 
+	width: 650px;
+	height: 1200px;
+	box-sizing: border-box;
+	background: rgb(120, 120, 120);
+}
+.user	
+{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-170px/2);
+	left: 120px;
+}
+h1
+{
+	margin-top:0px;
+	color: #efed40;
+	text-align: center;
+}
+.loginbox p
+{
+	margin: 0;
+	padding: 0px;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.loginbox input
+{
+	margin-left: 40px;
+	width: 70%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="email"]
+
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginbox textarea
+{
+	margin-top:15px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	
+	font-size: 16px;
+	width: 70%;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.loginbox input[type="date"]
+
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.loginbox input[type="number"]
+
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginbox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+::placeholder
+{
+	color:rgba(255,255,255,.8);
+}
+.loginbox input[type="submit"]
+{
+	margin-top: 25px;
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+
+.edu p
+{
+
+	display: inline;
+}
+.edu select
+{
+
+	height: 25px;
+	width: 120px;
+	margin-left:  117px;
+	display: inline;
+	border-radius: 8px;
+}
+.gender p
+{
+
+	display: inline;
+}
+.gender select
+{
+	
+	height: 25px;
+	width: 120px;
+	margin-left:  140px;
+	display: inline;
+	border-radius: 8px;
+	margin-top: 15px;
+	
+}
+.marry p
+{
+	margin-top:50px;
+	display: inline;
+}
+.marry select
+{
+	
+	height: 25px;
+	width: 120px;
+	margin-left:  100px;
+	display: inline;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+.loginbox input[type="file"]
+{
+	height: 25px;
+	width: 120px;
+	margin-left:  100px;
+	display: inline;
+	border-radius: 8px;
+	margin-top: 15px;
+}

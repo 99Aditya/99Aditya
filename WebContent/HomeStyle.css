@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+
+#cont1 {
+	height: 500px;
+	width: 20%;
+	border: 0px solid orange;
+	background: D0ECDC;
+	border: 0px solid red;
+}
+
+#main {
+	height: 718px;
+	width: 100%;
+	background: #FFFEF1;
+	border: 0px solid red;
+}
+
+#head {
+	height: 116px;
+	width: 100%;
+	border: 0px solid blue;
+}
+
+#lefthead {
+	height: 100%;
+	width: 23%;
+	float: left;
+	border: 0px solid red;
+}
+
+#righthead {
+	height: 100%;
+	width: 76%;
+	float: right;
+	border: 0px solid red;
+	font-size: 59px;
+	color: #141414;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#button {
+	
+}
+
+#cont {
+	height: 600px;
+	width: 100%;
+	border: 0px solid orange;
+	background: D0ECDC;
+}
+
+#leftcont {
+	height: 100%;
+	width: 20%;
+	float: left;
+	border: 0px solid blue;
+}
+
+#centrecont {
+	height: 100%;
+	width: 54%;
+	border: 0px solid blanchedalmond;
+	margin-left: 286px;
+}
+
+#rightcont {
+	height: 100%;
+	width: 25%;
+	border: 0px solid blue;
+	float: inline-end;
+	margin-top: -596px;
+	float: right;
+}
+
+#top {
+	height: 10%;
+	width: 90%;
+	margin-top: -3px;
+	margin-left: 10px;
+	border: 0px solid #141414;
+	border-radius: 20px;
+	font-size: 25px;
+	font-style: italic; color : #141414;
+	background: #ffffff;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: #141414;
+}
+
+#mid {
+	height: 25%;
+	width: 90%;
+	margin-top: 25px;
+	border: 0px solid green;
+}
+
+#bottom {
+	height: 8%;
+	width: 90%;
+	margin-top: 25px;
+	border: 0px solid red;
+}
+
+#div4 {
+	height: 8%;
+	width: 90%;
+	margin-top: 25px;
+	border: 0px solid red;
+}
+
+#footer {
+	height: 100px;
+	width: 100%;
+	border: 0px solid blue;
+}

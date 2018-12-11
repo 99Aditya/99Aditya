@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+<style type="text/css">
+.userform {
+	padding-top: 280px;
+
+}
+.hoverTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.hoverTable td {
+	text-align: center;
+	padding: 7px;
+	border: #4e95f4 0px solid;
+	
+}
+/* Define the default color for all the table rows */
+.hoverTable tr {
+	background: #D7EDE1;
+}
+/* Define the hover highlight color for the table row */
+.hoverTable tr:hover {
+	background-color: #ffff99;
+}
+
+.hoverTable1 {
+	width: 500px;
+	border-collapse: collapse;
+}
+
+.hoverTable1 td {
+	text-align: center;
+	padding: 7px;
+	border: #4e95f4 0px solid;
+}
+/* Define the default color for all the table rows */
+.hoverTable1 tr {
+	background: #b8d1dc;
+}
+/* Define the hover highlight color for the table row */
+.hoverTable1 tr:hover {
+	background-color: #ffff99;
+}
+
+</style>

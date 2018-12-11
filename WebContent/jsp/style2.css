@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+.body
+{
+	
+	font-family: Arial;
+	
+}
+.head h1{
+	
+	color: green;
+}
+.head
+{
+	margin: auto;
+	text-align: center;
+	background-color:#00ffff;
+	font-weight: bold;
+	height: 80px;
+	
+}
+.head p
+{
+	font-size: 25px;
+}
+.nav
+{
+	margin: 0 auto;
+	height:30px;
+	width: 1680px;	
+ }
+.nav ul
+{
+	width: 100%;
+		border-radius:6px;
+		margin: 0 auto;
+		padding: 0px;
+		line-height: 35px;
+		text-align:center;
+		background: gray;
+}
+.nav ul li
+{
+	float:left;
+	width: 213px;
+	background-color: #c0c0c0;
+	border:1px solid #ffffff;
+	border-radius: 6px;
+	display: block;
+	
+}
+.nav ul li a
+{
+	margin: 0 auto;
+	padding:  0px;
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+	display: block;
+}
+.nav ul li a:hover
+{
+	background-color: orange;
+}
+.mySlides 
+{
+	
+	display:none;
+}
+.body-content
+{
+	border: 1px solid red;
+	height: 463px;
+	background: cover;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.footer  
+{
+	marker-offset:0;
+	font-size:20px;
+	border: 1px solid red;
+	height: 50px;
+	color:white;
+	
+	background-color: black;
+}
+.footer h3
+{
+	float: right;
+	color: white;
+}
+.top{
+	color: red;
+}

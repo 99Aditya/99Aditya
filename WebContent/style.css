@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+body
+{
+	font-family: Arial;
+	background-image: url(f24_supp_vote.png);
+	background-size: cover;
+	
+}
+.nav
+{
+	margin: 0 auto;
+	padding-left: 60px;
+	padding-top: 80px;
+ }
+.nav ul
+{
+		border-radius:6px;
+		margin: 0 auto;
+		padding: 0px;
+		line-height: 35px;
+		text-align:center;
+		background: gray;
+}
+.nav ul li
+{
+	float:left;
+	width: 200px;
+	background-color: #c0c0c0;
+	opacity: .8;
+	border:1px solid #ffffff;
+	border-radius: 6px;
+	display: block;
+}
+.nav ul li a
+{
+	margin: 0 auto;
+	padding: 0px;
+	
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+	display: block;
+}
+.nav ul li a:hover
+{
+	background-color: orange;
+	
+}
+.nav ul li ul li
+{
+	position:relative;
+	display: none;
+}
+.nav ul li ul li a
+{
+	position: relative;
+	display: block;
+	font-size: 16px;
+	
+}
+.nav ul li:hover ul li
+{
+	display:block;
+} 
+	
+	
